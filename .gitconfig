@@ -1,0 +1,9 @@
+[user]
+	name = Estefanio N Santos
+	email    = estefanions@gmail.com
+	username = estefanions
+[core]
+	editor = vim
+	whitespace = cr-at-eol
+[credential]
+	helper = cache --timeout=21600
