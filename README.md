@@ -7,7 +7,7 @@ home/estefanio/.gitconfig
 [user]
 	name     = Estefanio N Santos
 	email    = estefanions@gmail.com
-	username = estefanions
+	username = estefanionsantos
 [core]
 	editor = vim
 ```
