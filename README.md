@@ -24,7 +24,6 @@ for several different accounts and here in the example we will create for only t
 ```
 
 ## ~/.gitconfig-n2
-~/.gitconfig-n2
 ```
 [user]
 	name  = Lorem Santos
