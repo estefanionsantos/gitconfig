@@ -39,3 +39,12 @@ for several different accounts and here in the example we will create for only t
   path = ~/.gitconfig-n2
 ```
 
+## save credentials
+Set the cache to timeout after 1 hour (setting is in seconds) 3600 = 1h
+```
+[credential]
+	helper = cache --timeout=3600
+```
+
+
+
