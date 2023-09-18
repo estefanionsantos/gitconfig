@@ -1,6 +1,6 @@
 #
 *.vim
-tag
+tags
 .vimspector.json
 
 # Compiled source #
