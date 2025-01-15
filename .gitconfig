@@ -6,4 +6,40 @@
 	editor = vim
 	whitespace = cr-at-eol
 [credential]
-	helper = cache --timeout=21600
+    helper = cache --timeout=21600 ; 3600 = 1h
+
+[credential "https://github.com"]
+    helper = cache --timeout=54000
+
+[credential "https://gitlab.com"]
+    helper = cache --timeout=54000
+
+[credential "https://bitbucket.org"]
+    helper = cache --timeout=54000
+
+[credential "https://gitlab.example.com.br"]
+    helper = cache --timeout=54000
+
+[https "https://gitlab.example.com.br"]
+	proxy = https://proxyect.example.int:9090
+
+[http "http://gitlab.example.com.br"]
+	proxy = http://proxyect.example.int:9090
+
+[http "https://github.com"]
+	proxy = 
+
+[http "http://github.com"]
+	proxy = 
+
+[http "https://bitbucket.org"]
+	proxy = 
+
+[https "https://bitbucket.org"]
+	proxy = 
+
+[http "https://github.com"]
+	proxy = 
+
+[https "https://github.com"]
+	proxy = 
